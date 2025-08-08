@@ -1,0 +1,129 @@
+/* * {
+    margin: 2px;
+    background:lightgrey;
+}
+h1 {
+    background:gray;
+    text-align: center;
+}
+div {
+    background: darkgray;
+    text-align: center;
+}
+
+ul {
+    background:darkgray;
+    
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    justify-items: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 24px 32px 32px 32px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 24px;
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+input[type="text"] {
+    width: 40%;
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 1em;
+    margin-right: 8px;
+    outline: none;
+    transition: border 0.2s;
+}
+
+input[type="text"]:focus {
+    border-color: #888;
+}
+
+button, input[type="submit"] {
+    padding: 8px 16px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover, input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 24px;
+}
+
+li {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px 16px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background 0.2s;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #aaa;
+    background: #e0e0e0;
+}
+
+li button {
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 10px;
+    font-size: 0.9em;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: background 0.2s;
+}
+
+li button:hover {
+    background: #b52a37;
+}
+/* Add border to main container, input, button, and list items */
+.container {
+    border: 2px solid #007bff;
+}
+
+input[type="text"] {
+    border: 2px solid #bbb;
+}
+
+button, input[type="submit"] {
+    border: 2px solid #007bff;
+}
+
+ul {
+    border: 1px solid #ddd;
+}
+
+li {
+    border: 1px solid #ccc;
+}
